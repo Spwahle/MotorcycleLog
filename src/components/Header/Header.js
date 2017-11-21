@@ -13,7 +13,7 @@ import s from './Header.css';
 import Link from '../Link';
 import Navigation from '../Navigation';
 import logoUrl from './logo-small.png';
-import logoUrl2x from './logo-small@2x.png';
+import logoUrl2x from './Motorcycle-Racing-Logos.jpg';
 
 class Header extends React.Component {
   render() {
@@ -29,11 +29,11 @@ class Header extends React.Component {
               height="38"
               alt="React"
             />
-            <span className={s.brandTxt}>Your Company</span>
+            <span className={s.brandTxt}>Motorcycle Log</span>
           </Link>
           <div className={s.banner}>
-            <h1 className={s.bannerTitle}>React</h1>
-            <p className={s.bannerDesc}>Complex web apps made easy</p>
+            <h1 className={s.bannerTitle}>Keep it Two Wheels Down!</h1>
+            <p className={s.bannerDesc}>Motorcycle maintenance made easy</p>
           </div>
         </div>
       </div>
